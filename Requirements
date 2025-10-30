@@ -2,3 +2,10 @@ Flask == 3.0.3
 paramiko == 3.4.0
 python-dotenv == 1.0.1
 Requests == 2.32.3
+
+How to run the file localy:
+For SSH:
+From honey.py run this in your terminal(python honeypy.py -a 127.0.0.1 -p 2223 -u --ssh)
+For web-based:
+Open the terminal and run the web_honeypot.py(a link will be given, enter account name and password)
+To outside IDE (use this command : ssh -p 2223 username@127.0.0.1)
